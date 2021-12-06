@@ -1,27 +1,42 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.bg-img {
+  padding: 1px;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.avatars{
+  margin: auto;
+  margin-top: 110px;
+  width: 100px;
+  height: 100px;
+}
+.divlogin{
+  margin-top: 50px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.divlogin ion-item{
+  margin-top: 10px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.item-background-color{
+  --ion-item-background: trensparent;
 }
+.labellogin{
+  color: aliceblue;
+  font-weight: 500;
 
-#container a {
-  text-decoration: none;
+}
+.btnlogin{
+  --background: rgb(39, 38, 38);
+}
+.btninscri{
+  --background: forestgreen;
+  width: 47%;
+  color: black;
+  font-weight: 600;
+}
+.btnforget{
+  --background: rgb(5, 24, 49);
+  width: 50%;
 }

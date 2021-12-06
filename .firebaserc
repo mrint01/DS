@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tasks-55135": {
+      "hosting": {
+        "app": [
+          "tasks-55135"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tasks-55135"
+  }
+}
